@@ -23,11 +23,6 @@ namespace cat {
     virtual ~Photon();
 
 
-    enum IsoType         {charged,
-                          neutral,
-                          photon};
-
-
     float photonID(const std::string& name) const;
     float photonID(const char* name) const { return photonID( std::string(name) );} 
 
