@@ -84,10 +84,6 @@ namespace cat {
     bool CSVv2M(){ return (bDiscriminator(BTAG_CSVv2) > WP_BTAG_CSVv2M);}
     bool CSVv2T(){ return (bDiscriminator(BTAG_CSVv2) > WP_BTAG_CSVv2T);}
 
-    // op 0 = loose, 1 = medium, 2 = tight
-    // sys 0 = central, 1 = up, -1 = down
-    // flav 0 = b, 1 = c, 2 = light
-    
     void bDiscriminatorPrint() const;
     // combinedSecondaryVertexBJetTags
     float vtxMass() const { return vtxMass_ ; }
