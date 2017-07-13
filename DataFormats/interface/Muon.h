@@ -57,8 +57,6 @@ namespace cat {
 
     void setIpSignficance(float ipsig) {ipsig_ = ipsig;}
 
-    float scaleFactor(const std::string& name, int sign = 0) const;
-    
   private:
 
     bool isGlobalMuon_;

@@ -70,8 +70,6 @@ namespace cat {
 
     void setSmearedScale(const float scale) { smearedScale_ = scale; }
 
-    float scaleFactor(const std::string& name, int sign = 0) const;
-    
   private:
 
     std::vector<pat::Electron::IdPair> electronIDs_;

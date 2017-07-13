@@ -84,8 +84,6 @@ namespace cat {
     bool CSVv2M(){ return (bDiscriminator(BTAG_CSVv2) > WP_BTAG_CSVv2M);}
     bool CSVv2T(){ return (bDiscriminator(BTAG_CSVv2) > WP_BTAG_CSVv2T);}
 
-    enum BTAGCSV_CUT { BTAGCSV_LOOSE=0, BTAGCSV_MEDIUM, BTAGCSV_TIGHT };
-    float scaleFactorCSVv2(BTAGCSV_CUT op, int systDir) const;
     // op 0 = loose, 1 = medium, 2 = tight
     // sys 0 = central, 1 = up, -1 = down
     // flav 0 = b, 1 = c, 2 = light

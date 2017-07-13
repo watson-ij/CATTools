@@ -37,9 +37,6 @@ namespace cat {
     float neutralHadronIso() const { return neutralHadronIso_; }
     float photonIso() const { return photonIso_; }
     float rhoIso()  const { return rhoIso_;}
-    float chargedHadronIsoWithEA(); 
-    float neutralHadronIsoWithEA(); 
-    float photonIsoWithEA(); 
     
     bool isPF() const{ return isPF_; }
     bool isTight() const { return isTight_; }
@@ -63,7 +60,6 @@ namespace cat {
 
     bool mcMatched() const { return mcMatched_; }
 
-    float getEffArea(IsoType iso_type, float scEta) ;
     /// Set class variables
 
     void setPhotonIDs(const std::vector<pat::Photon::IdPair> & ids) { photonIDs_ = ids; }
